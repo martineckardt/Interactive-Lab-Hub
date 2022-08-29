@@ -105,7 +105,7 @@ The Lights not being big enough for user to be influenced by when being judged b
 \*\***Take a video of your prototyped interaction.**\*\*
 
 
-https://user-images.githubusercontent.com/112036223/187300505-8f854173-c02c-40b3-9e7f-d8a73ba18b78.MOV
+https://drive.google.com/drive/folders/18_8quoBNvdQ0fDPjue6PiMu5NFbUbZ9t?ths=true
 
 
 
