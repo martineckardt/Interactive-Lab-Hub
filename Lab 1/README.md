@@ -93,6 +93,12 @@ Think about the setting of the device: is the environment a place where the devi
 <img width="298" alt="image" src="https://user-images.githubusercontent.com/112036223/187296820-147d99f4-3f7d-4aa1-8edb-66c634b2603c.png">
 
 
+[Prototype Sketches.pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9447895/Prototype.Sketches.pdf)
+
+
+
+
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
 The Lights not being big enough for user to be influenced by
