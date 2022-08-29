@@ -70,7 +70,10 @@ If you run into technical issues with this tool, you can also use a light switch
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-https://user-images.githubusercontent.com/112036223/187295056-a48b1b55-7483-4fc7-a5c8-8eed48873ed3.MOV
+
+https://user-images.githubusercontent.com/112036223/187295302-1d12a2a8-493e-49a0-832f-ebbbe5f1715d.MOV
+
+
 
 
 
