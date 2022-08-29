@@ -90,10 +90,11 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your devices might look like here.**\*\*
-<img width="298" alt="image" src="https://user-images.githubusercontent.com/112036223/187296820-147d99f4-3f7d-4aa1-8edb-66c634b2603c.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/112036223/187296820-147d99f4-3f7d-4aa1-8edb-66c634b2603c.png">
 
 
-[Prototype Sketches.pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9447895/Prototype.Sketches.pdf)
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/112036223/187297480-86a4fbc8-9b1f-402e-9209-ec130999ae16.png">
+
 
 
 
