@@ -34,7 +34,7 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-The goal for the device is to provide positive and negative reinforcment to the user based on their diatery choices. The device will be disguised as a record album with a person on it that will looking over you as you decide what your midnight snack is. 
+ The device will be disguised as a record album with a person on it that will looking over you as you decide what your midnight snack is. 
 
 \*\***Include pictures of your storyboards here**\*\*
 
@@ -45,7 +45,6 @@ https://drive.google.com/drive/folders/18_8quoBNvdQ0fDPjue6PiMu5NFbUbZ9t?ths=tru
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
@@ -54,25 +53,10 @@ The timing is going to be a little awkard at times. This could be fixed with a b
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
-\*\***Give us feedback on Tinkerbelle.**\*\*
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-
-
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -100,6 +84,7 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
 The Lights not being big enough for user to be influenced by when being judged by the device. Device not being in the appropiate spot to have an influence.
+
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
