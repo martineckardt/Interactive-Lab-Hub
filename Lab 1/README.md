@@ -51,8 +51,6 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 The timing is going to be a little awkard at times. This could be fixed with a bunch of software and maybe a camera to detect objects, but that is out of scope for this project.
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
 
 ## Part C. Prototype the device
 
@@ -89,7 +87,6 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-\*\***Include sketches of what your devices might look like here.**\*\*
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/112036223/187296820-147d99f4-3f7d-4aa1-8edb-66c634b2603c.png">
 
 
@@ -102,14 +99,18 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-The Lights not being big enough for user to be influenced by
+The Lights not being big enough for user to be influenced by when being judged by the device. Device not being in the appropiate spot to have an influence.
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+https://user-images.githubusercontent.com/112036223/187300505-8f854173-c02c-40b3-9e7f-d8a73ba18b78.MOV
+
+
+
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
+Cooper McGuire Helped me setup the IP and Tinkerbell tool. Also delivered an Oscar performance in the interaction videos I filmed.
 
 
 # Staging Interaction, Part 2 
