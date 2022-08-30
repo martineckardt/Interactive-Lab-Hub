@@ -107,7 +107,9 @@ Since it is standing on the desk and the user sees it a lot of time it should lo
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-![storyboard](prototype_green.mov)
+[Interaction begin work](https://youtube.com/shorts/XXBoXsAY46Y?feature=share)
+
+[Interaction busy during call](https://youtube.com/shorts/Mmme8AqoxE4)
 
 # Staging Interaction, Part 2 
 
