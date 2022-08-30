@@ -13,21 +13,6 @@ _Make sure you read all the instructions and understand the whole of the laborat
 
 
 ## Prep
-
-### To start the semester, you will need:
-1. Read about Git [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
-2. Set up your own Github "Lab Hub" repository to keep all you work in record by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md).
-3. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how to](https://guides.github.com/features/mastering-markdown/) organize and post links to your submissions on your README.md so we can find them easily.
-
-
-### For this lab, you will need:
-1. Paper
-2. Markers/ Pens
-3. Scissors
-4. Smart Phone -- The main required feature is that the phone needs to have a browser and display a webpage.
-5. Computer -- We will use your computer to host a webpage which also features controls.
-6. Found objects and materials -- You will have to costume your phone so that it looks like some other devices. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case, etc. Be creative!
-
 ### Deliverables for this lab are: 
 1. 7 Storyboards
 1. 3 Sketches/photos of costumed devices
@@ -57,59 +42,48 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-To stage an interaction with your interactive device, think about:
-
 _Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+
+The interaction is happening in an office with glass walls.
 
 _Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
+- The user (Clara) who is working at a desk
+- Her colleague Michelle who is somewhere else. 
+- Herr colleague Mike that is coming to Clara
+
 _Activity:_ What is happening between the actors?
+
+Clara receives a call from Michelle who wants to give her a presentation of a new idea. She accepts the call and the Busy Indicator turns red. Mike wants to ask Clara a question goes to her office. When he gets to her office, he can see through the busy indicator that Clara is busy eventhough she is not talking. Therefore, he does not interrupt the call and returns at a later time.
 
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
-The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+Clara does want to follow Michelle's presentation without being disturbed. Mike does not want to disturb Clara while she is busy.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+### Storyboard
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+![storyboard](stroyboard.jpg)
 
-\*\***Include pictures of your storyboards here**\*\*
-
-Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
-
-\*\***Summarize feedback you got here.**\*\*
+### Feedback from other students
+- The students generally like the idea of the Busy Indicator
+- A suggestion was that Mike should be able to also check with an app if Clara is busy, because he might have had a long way to her office
 
 
 ## Part B. Act out the Interaction
 
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
-
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+It would be very cool if the busy indicator can automatically detect if the user is busy or not without needing to be manually switched from "not busy" to "busy". 
 
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
+![sketch](sketch.jpg)
 
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
+### Feedback on Tinkerbelle
 
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
-\*\***Give us feedback on Tinkerbelle.**\*\*
+Good for getting the general idea of prototyping and setting up an environment. 
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-\*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
-
-\*\***Show the follow-up work here.**\*\*
 
 
 ## Part E. Costume the device
@@ -120,17 +94,20 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![storyboard](prototype_1.jpeg)
+![storyboard](prototype_2.jpeg)
+![storyboard](prototype_3.jpeg)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
+Since it is standing on the desk and the user sees it a lot of time it should look very nice. Furthermore, the light should not be too bright to not disturb the user.
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
-
+![storyboard](prototype_green.mov)
 
 # Staging Interaction, Part 2 
 
