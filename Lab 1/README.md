@@ -6,13 +6,14 @@ To stage an interaction with your interactive device, think about:
 
 _Setting:_ Where is this interaction happening? The Kitchen.
 
-When is it happening? When the person is wanting to satisfy their hunger or go for a late night snack. As they grab the snack they will be given postive reinforcement depending on their choose of snack or meal they choose. They can unlcok additional feedback for sustained good or bad decisions. On top of that can receive feeedback given on their cumaltive decisions throughout the week.
+When is it happening? When a person is wanting to satisfy their hunger or go for a late night snack. As the person grabs a snack they will be given postive reinforcement depending on their choose of snack or meal they choose. They can unlcok additional feedback for sustained good or bad decisions. On top of that can receive feeedback given on their cumaltive decisions throughout the week.
 
-_Players:_ Who is involved in the interaction? My roomates. Who else is there? Can also assume for the occasional visitor. Different types of visitors could include friends coming over for dinner, people visiting from outside of town and family.
+_Players:_ Who is involved in the interaction? My roomates. 
+Who else is there? Can also assume for the occasional visitor. Different types of visitors could include friends coming over for dinner, people visiting from outside of town and family.
 
 _Activity:_ 
 What is happening between the actors? 
-The actor will be attempting to satsify their hunger with a range of snacks in the kitchen. The device is intnended to only be used by one person. Other people using the device will have no effect on the tracking of your own statistics.
+The actor will be attempting to satsify their hunger with a range of snacks in the kitchen. The device is intnended to only be used by one person. Other people using the device will should have no effect on some of the features that could occur over the day or week.
 
 _Goals:_ 
 What are the goals of each player?
@@ -21,14 +22,17 @@ To satisfy their hunger by choosing a snack.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
- The device will be disguised as a record album with a person on it that will be looking over you as you decide what your midnight snack is. As a person interacts with the fridge the device will give them the appropiate feedback.
+ The device will be disguised as a record album with a person on it that will be looking over you as you decide what your snack is. As a person interacts with food the device will give them the appropiate feedback.
 
 \*\***Include pictures of your storyboards here**\*\*
+
+Github was not allowing me to upload everything so I linked a public drive.
 
 https://drive.google.com/drive/folders/18_8quoBNvdQ0fDPjue6PiMu5NFbUbZ9t?ths=true
 
 \*\***Summarize feedback you got here.**\*\*
 
+People were unlcear of the devices purpose so I made some more storyboards with clearer images along side a video to make it clearer what was going on.
 
 ## Part B. Act out the Interaction
 
