@@ -1,22 +1,5 @@
 
 
-## Lab Overview
-For this assignment, you are going to:
-
-A) [Plan](#part-a-plan) 
-
-B) [Act out the interaction](#part-b-act-out-the-interaction) 
-
-C) [Prototype the device](#part-c-prototype-the-device)
-
-D) [Wizard the device](#part-d-wizard-the-device) 
-
-E) [Costume the device](#part-e-costume-the-device)
-
-F) [Record the interaction](#part-f-record)
-
-Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
-
 ## Part A. Plan 
 
 To stage an interaction with your interactive device, think about:
@@ -64,6 +47,7 @@ Throughout making the device some of the things accomplished were. Making the ho
 
 \*\***Show the follow-up work here.**\*\*
 
+Github was not allowing me to upload all of my images so I have stored them in the following google drive.
 
 https://user-images.githubusercontent.com/112036223/187295564-edc717b7-00c6-4263-beb6-fd73ffc7ae09.MOV
 
@@ -93,6 +77,7 @@ The Lights not being big enough for user to be influenced by when being judged b
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+Github would not allow me to upload my videos so I have linked a public google drive.
 
 https://drive.google.com/drive/folders/18_8quoBNvdQ0fDPjue6PiMu5NFbUbZ9t?ths=true
 
@@ -104,20 +89,7 @@ Cooper McGuire Helped me setup the IP and Tinkerbell tool. Also delivered an Osc
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
-
-
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 \*\***Summarize feedback from your partners here.**\*\*
 
-## Make it your own
+Postive feebcak recieved was about creativness and good interactions seen with the device. Consturctive feedback was mainly centered around the desciption of the device being poor and an unclear objective being written in my repository. Since then I have cleaned both of these sections up to make the device more clear in it's purpose and goal when interacting with a user.
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code! 
-3) We will be grading with an emphasis on creativity. 
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
