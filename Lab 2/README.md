@@ -76,7 +76,7 @@ Just like you did in the lab prep, ssh on to your pi. Once you get there, create
 ssh pi@<your Pi's IP address>
 ...
 pi@ixe00:~ $ virtualenv circuitpython
-pi@ixe00:~ $ source circuitpython/bin/activate
+pi@ixe00:~ $ source ~/circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
 ```

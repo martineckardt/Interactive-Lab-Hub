@@ -1,4 +1,6 @@
 import time
+from datetime import datetime as dt
+import math
 import subprocess
 import digitalio
 import board
@@ -60,12 +62,34 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+hour = 0
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    
+    # Get current time
+    #hour = dt.now().hour + (dt.now().minute / 60)
+
+    # Simulate faster sun movement
+    hour = hour % 24 + 1
+
+    y = top
+
+    # Show titel at the top
+    draw.text((x, y), "☀️ Sun Clock", font=font, fill="#FFFFFF")
+
+    # Draw horizonal line
+    draw.line((x/2,height/2, width,height/2), fill="#FFFFFF", width=1)
+    
+    # draw the course of the sun
+    draw.line([(h*10, 67.5+math.cos(h/24*math.pi*2)*40) for h in range(25)], fill="#FFFFFF", width=1)
+
+    # calculate the postion of the sun and show it
+    draw.ellipse([(hour*10-5,62.5+math.cos(hour/24*math.pi*2)*40), (hour*10+5,72.5+math.cos(hour/24*math.pi*2)*40)], fill=("#FFFFFF" if 6 <= hour <= 18 else "#000001"), outline="#FFFFFF", width=1)
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.3)
