@@ -62,6 +62,7 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+sun_radius = 5
 hour = 0
 
 while True:
@@ -81,14 +82,18 @@ while True:
     # Show titel at the top
     draw.text((x, y), "☀️ Sun Clock", font=font, fill="#FFFFFF")
 
-    # Draw horizonal line
+    # Draw horizontal line
     draw.line((x/2,height/2, width,height/2), fill="#FFFFFF", width=1)
     
     # draw the course of the sun
     draw.line([(h*10, 67.5+math.cos(h/24*math.pi*2)*40) for h in range(25)], fill="#FFFFFF", width=1)
 
-    # calculate the postion of the sun and show it
-    draw.ellipse([(hour*10-5,62.5+math.cos(hour/24*math.pi*2)*40), (hour*10+5,72.5+math.cos(hour/24*math.pi*2)*40)], fill=("#FFFFFF" if 6 <= hour <= 18 else "#000001"), outline="#FFFFFF", width=1)
+    # calculate the postion of the sun
+    sun_x_offset = hour * 10
+    sun_y_offset = math.cos(hour/24*math.pi*2)*40
+
+    # draw the sun
+    draw.ellipse([(sun_x_offset-sun_radius, height/2-sun_radius+sun_y_offset), (sun_x_offset+sun_radius, height/2+sun_radius+sun_y_offset)], fill=("#FFFFFF" if 6 <= hour <= 18 else "#000001"), outline="#FFFFFF", width=1)
 
     # Display image.
     disp.image(image, rotation)
