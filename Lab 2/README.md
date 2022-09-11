@@ -205,10 +205,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+For demonstration purposes I have made the clock go much faster than usual.
+
+[Video Sun Clock](https://youtu.be/DTz3x47GBLo)
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+I part 2 I would like to enable the user to see the position of the sun for differnt location in the world. Therefore an abbreviation of the currently displayed city is shown on the display. With the two buttons the user can change between predefined locations.
+
+![storyboard](IDD_Lab_2_Part_G.png)
 
 
 # Prep for Part 2
