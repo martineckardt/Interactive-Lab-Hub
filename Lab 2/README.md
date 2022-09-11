@@ -208,8 +208,14 @@ https://drive.google.com/drive/folders/1xKXqyjXaqEI01dxIrYGDXbourdrWHQOa?ths=tru
 Sketches, Interactions and Video ^
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+- I want to add an intereaction with the user, along with the device showing the most common emotion maybe the user could change the emotion if it not acccurate. 
+
+- Along with the image a graph showing the last week's emotions could also be possible. 
+
+- Maybe having a visual representation showing that when you are in a worse mood time moves slower and speed it up if you were in a good mood.
+
+- Changing imges to create more unique ways to demonstrate the emotions trying to be conveyed.
 
 # Prep for Part 2
 
