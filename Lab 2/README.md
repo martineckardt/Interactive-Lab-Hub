@@ -182,13 +182,9 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 ## Part E.
 ### Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+Throughout every week we go through a cycle of days. However alongside those days we go through cycles of emotions. The goal of this clock is to use those associated emotions to tell time. As the days cycle the clock will display the most common emotion typically experienced during that day.
 
-Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
-
-**We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
