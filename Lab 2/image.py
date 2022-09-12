@@ -61,10 +61,13 @@ disp = st7789.ST7789(
 
 
 # define what day of the week it is
+
+
 #dt = datetime.now()
 #day = dt.isoweekday()
 
 #select appropiate image based on the day of the week
+# currently set to cycle to demonstrate capability
 days = [1,2,3,4,5,6,7]
 
 for day in days:
