@@ -157,7 +157,9 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 ## Part D. 
 ### Set up the Display Clock Demo
-Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
+Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out. 
+
+These changes are reflected in the code
 
 ### How to Edit Scripts on Pi
 Option 1. One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
@@ -180,13 +182,9 @@ Now you should be able to edit python scripts with Thonny on your Pi.
 ## Part E.
 ### Modify the barebones clock to make it your own
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
 
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+Throughout every week we go through a cycle of days. However alongside those days we go through cycles of emotions. The goal of this clock is to use those associated emotions to tell time. As the days cycle the clock will display the most common emotion typically experienced during that day.
 
-Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
-
-**We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
@@ -205,11 +203,19 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+https://drive.google.com/drive/folders/1xKXqyjXaqEI01dxIrYGDXbourdrWHQOa?ths=true
+
+Sketches, Interactions and Video ^
 
 ## Part G. 
-## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+- I want to add an intereaction with the user, along with the device showing the most common emotion maybe the user could change the emotion if it not acccurate. 
+
+- Along with the image a graph showing the last week's emotions could also be possible. 
+
+- Maybe having a visual representation showing that when you are in a worse mood time moves slower and speed it up if you were in a good mood.
+
+- Changing imges to create more unique ways to demonstrate the emotions trying to be conveyed.
 
 # Prep for Part 2
 
