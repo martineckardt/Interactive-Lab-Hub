@@ -210,7 +210,7 @@ For demonstration purposes I have made the clock go much faster than usual.
 [Video Sun Clock](https://youtu.be/DTz3x47GBLo)
 
 ## Part G. 
-I part 2 I would like to enable the user to see the position of the sun for differnt location in the world. Therefore an abbreviation of the currently displayed city is shown on the display. With the two buttons the user can change between predefined locations.
+I part 2 I would like to enable the user to see the position of the sun for differnt locations in the world. Therefore, an abbreviation of the currently displayed city is shown on the display. The user can change between predefined locations with the two buttons of the display .
 
 ![storyboard](IDD_Lab_2_Part_G.png)
 
