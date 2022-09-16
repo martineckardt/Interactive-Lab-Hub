@@ -222,6 +222,14 @@ I part 2 I would like to enable the user to see the position of the sun for diff
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
+Feedback from Patrick Mazza:
+- Cool project
+- Extend and show other planets, such as the moon
+
+Feedback from Jacov Everly:
+- Cool project, like idea for part 2
+- Change interface so user can see the cities that can be changed to with the buttons of the screens
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.
