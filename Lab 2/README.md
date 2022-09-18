@@ -226,12 +226,9 @@ Sketches, Interactions and Video ^
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
+Cretaed a feaature where you cn manually cycle through the days manually useing the buttons. This way if a user feels a little bit better or worse on a given day they can adjust the mood to 
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+Cleaned up the resizing of the images and made the cycling cleaner.
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 
