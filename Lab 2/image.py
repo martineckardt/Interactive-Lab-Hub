@@ -3,11 +3,9 @@
 
 """
 Be sure to check the learn guides for more usage information.
-
 This example is for use on (Linux) computers that are using CPython with
 Adafruit Blinka to support CircuitPython libraries. CircuitPython does
 not support PIL/pillow (python imaging library)!
-
 Author(s): Melissa LeBlanc-Williams for Adafruit Industries
 """
 import time
@@ -22,6 +20,11 @@ import adafruit_rgb_display.hx8357 as hx8357  # pylint: disable=unused-import
 import adafruit_rgb_display.st7735 as st7735  # pylint: disable=unused-import
 import adafruit_rgb_display.ssd1351 as ssd1351  # pylint: disable=unused-import
 import adafruit_rgb_display.ssd1331 as ssd1331  # pylint: disable=unused-import
+
+from adafruit_rgb_display.rgb import color565
+import adafruit_rgb_display.st7789 as st7789
+import webcolors
+
 
 # Configuration for CS and DC pins (these are PiTFT defaults):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -58,19 +61,43 @@ disp = st7789.ST7789(
     y_offset=40,
 )
 # pylint: enable=line-too-long
+# draw black box
 
-
+if disp.rotation % 180 == 90:
+    height = disp.width  # we swap height/width to rotate it to landscape!
+    width = disp.height
+else:
+    width = disp.width  # we swap height/width to rotate it to landscape!
+    height = disp.height
+    
+image = Image.new("RGB", (width, height))
+draw = ImageDraw.Draw(image)
+draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+disp.image(image)
 # define what day of the week it is
 
 
-#dt = datetime.now()
-#day = dt.isoweekday()
+dt = datetime.now()
+day = dt.isoweekday()
 
 #select appropiate image based on the day of the week
 # currently set to cycle to demonstrate capability
-days = [1,2,3,4,5,6,7]
+#days = [1,2,3,4,5,6,7]
 
-for day in days:
+#for day in days:
+def emotiondisplay(day):
+
+    if disp.rotation % 180 == 90:
+        height = disp.width  # we swap height/width to rotate it to landscape!
+        width = disp.height
+    else:
+        width = disp.width  # we swap height/width to rotate it to landscape!
+        height = disp.height
+        
+    image = Image.new("RGB", (width, height))
+    draw = ImageDraw.Draw(image)
+    draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+    disp.image(image)
 
     if day == 1 :
         emotion = "Monday.jpg"
@@ -87,22 +114,15 @@ for day in days:
     else:
         emotion = "Sunday.jpg"
 
+
     # Create blank image for drawing.
     # Make sure to create image with mode 'RGB' for full color.
-    if disp.rotation % 180 == 90:
-        height = disp.width  # we swap height/width to rotate it to landscape!
-        width = disp.height
-    else:
-        width = disp.width  # we swap height/width to rotate it to landscape!
-        height = disp.height
-    image = Image.new("RGB", (width, height))
+
 
     # Get drawing object to draw on image.
     draw = ImageDraw.Draw(image)
 
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
-    disp.image(image)
 
 
     image = Image.open(emotion)
@@ -130,4 +150,31 @@ for day in days:
     # Display image.
     disp.image(image)
     time.sleep(1)
+
+    return disp.image(image)
+
+
+
+backlight = emotiondisplay(day)
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
+
+while True:
+    emotiondisplay(day)
+
+    while not buttonA.value or not buttonB.value:
+        if buttonA.value and buttonB.value:
+            emotiondisplay(dt.isoweekday())  # reset the clock
+            
+        if buttonB.value and not buttonA.value:  # just button A pressed
+            day = day + 1
+            emotiondisplay(day)
+        if buttonA.value and not buttonB.value:  # just button B pressed
+            day = day - 1
+            emotiondisplay(day)
+        sleep(0.5)
+
 
