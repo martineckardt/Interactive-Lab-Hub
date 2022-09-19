@@ -226,9 +226,15 @@ Sketches, Interactions and Video ^
 
 # Lab 2 Part 2
 
-Cretaed a feaature where you cn manually cycle through the days manually useing the buttons. This way if a user feels a little bit better or worse on a given day they can adjust the mood to 
+Cretaed a feaature where you can manually cycle through the days using the buttons. This way if a user feels a little bit better or worse on a given day they can adjust the mood to.
+
+Have also set the face equal to an integer representing the day of the week instead of cycling through all of the emotions.
 
 Cleaned up the resizing of the images and made the cycling cleaner.
+
+https://drive.google.com/drive/folders/1xKXqyjXaqEI01dxIrYGDXbourdrWHQOa?ths=true
+
+Videos and Sketches ^^^
 
 
 
