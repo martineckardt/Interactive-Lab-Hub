@@ -34,6 +34,6 @@ while True:
 res = json.loads(rec.FinalResult())
 
 if res["text"] != "":
-    print(res["text"])
+    print(f"So, {res['text']} pets live at your home. Thank you.")
 else:
     print("Sorry, I did not understand that number. Please try again.")
