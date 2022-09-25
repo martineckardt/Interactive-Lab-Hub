@@ -4,6 +4,7 @@ from vosk import Model, KaldiRecognizer
 import sys
 import os
 import wave
+import json
 
 if not os.path.exists("../../../speech2text/model"):
     print ("Please download the model from https://github.com/alphacep/vosk-api/blob/master/doc/models.md and unpack as 'model' in the current folder.")
@@ -16,15 +17,23 @@ if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getcomptype() != "NONE
 
 model = Model("../../../speech2text/model")
 # You can also specify the possible word list
-rec = KaldiRecognizer(model, wf.getframerate(), '["zero one two three four five six seven eight nine", "[unk]"]')
+rec = KaldiRecognizer(model, wf.getframerate(), '["zero one two three four five six seven eight nine ten", "[unk]"]')
 
 while True:
     data = wf.readframes(4000)
     if len(data) == 0:
         break
-    if rec.AcceptWaveform(data):
-        print(rec.Result())
-    else:
-        print(rec.PartialResult())
 
-print(rec.FinalResult())
+    
+    if rec.AcceptWaveform(data):
+        rec.Result()
+    else:
+        rec.PartialResult()
+
+
+res = json.loads(rec.FinalResult())
+
+if res["text"] != "":
+    print(res["text"])
+else:
+    print("Sorry, I did not understand that number. Please try again.")

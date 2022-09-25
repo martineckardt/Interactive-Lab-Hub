@@ -6,6 +6,7 @@ say() { local IFS=+;/usr/bin/mplayer -ao alsa -really-quiet -noconsolecontrols "
 say " Please give me a number between 1 and 10"
 
 arecord -D hw:2,0 -f cd -c1 -r 16000 -d 2 -t wav recorded_mono.wav
-python3 test_number.py recorded_mono.wav
- 
+RES=$(python3 test_number.py recorded_mono.wav)
+
+say $RES 
 say " Thank you"
