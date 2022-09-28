@@ -58,6 +58,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+Script is located at `greet/greetByName.sh`
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -80,6 +82,8 @@ Now, look at which camera you have. Do you have the cylinder camera (likely the 
 Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+Script is located at `numericalInput/askForNumericalInput.sh`
 
 ### Serving Pages
 
@@ -105,9 +109,15 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+The device's goal is to reduce energy waste that occurs when windows are opened but the AC is not turned off. Therefore, when a user opens a window the device asks if the AC should be turned off. Furthermore, it offers to remind the user after a certain time to close the window so it does not get too cold in the room.
+
+![storyboard](images/IDD_Lab_3_Storyboard.png)
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+![storyboard](images/IDD_Lab_3_conversation_flow.png)
 
 ### Acting out the dialogue
 
