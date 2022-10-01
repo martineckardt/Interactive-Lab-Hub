@@ -137,8 +137,18 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+- Tell the user what triggered the system ("I have noted you opened the window")
+- If no reminer is wished, confirm that no reminder has been setup
+- Confirm the amount of time that will be waited before the reminder
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+I revised the conversation flow and added additional confirmation messages.
+
+![conversation flow v2](images/IDD_Lab_3_conversation_flow_v2.png)
+
 
 ## Prototype your system
 
@@ -148,8 +158,27 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
-
 *Include videos or screencaptures of both the system and the controller.*
+
+_Sensor_
+
+The systems uses a sensor to detect if the window has been opened. First i wanted to use the Capacitive Sensor combined with some copper to detect when the window is opened. The idea was to put the copper tape between the window frame and the window and that the sensor is triggered when the window opens because it looses contact with the window. Unfortunately, that did not work at all. The sensor was triggered the whole time. I tried first connecting the copper and then connecting the sensor to the Pi but that did not help either.
+
+![prototype captive sensor](images/prototype_captive_sensor.jpeg)
+
+Therefore, I switched to the proximity sensor as an alternative. It is setup in a way that it measures the distance to the window. When it opens, the distance becomes smaller and therefore the value of the proximity sensor higher. The script just loops until the last 
+
+![prototype proximity sensor](images/prototype_proximity_sensor.jpeg)
+
+When the sensor is triggered the flow begins automatically.
+
+_Controller_
+
+To avoid long times of waiting after an action due to loading times of Google TTS most of the speech files are prepared on startup before the flow starts. Just a single sound file is created on the fly since it is dependent on user input (reminder confirmation).
+
+The wizard interacts with the protoype using the command line. 
+
+![Controller Output](images/Controller.png)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
