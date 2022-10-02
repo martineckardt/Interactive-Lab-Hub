@@ -80,7 +80,7 @@ else:
     #prevent from killing
     sleep(reminder_sound.duration)
 
-    input("Controller: Press any key to trigger reminder")
+    input("Controller: Press enter to trigger reminder")
 
     say("reminder")
 

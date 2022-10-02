@@ -183,21 +183,32 @@ The wizard interacts with the protoype using the command line.
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-Answer the following:
+[IDD Lab 3 Interaction Window Reminder (Silja)](https://youtube.com/shorts/iOzTTPTujJY)
+[IDD Lab 3 Interaction Window Reminder (Jacob, failed)](https://youtu.be/SDXhyn2iEAM)
+[IDD Lab 3 Interaction Window Reminder (Jacob, successful)](https://youtu.be/fazshzAVQwE)
+
+
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+- Overall it worked well
+- Feeled a bit of an overkill to go trhough the whole flow everytime the window is opened. 
+- It would be better to automatically close window 
+- Jacob thought the system would understand also conditions for closing the window ("remind me when it starts raining")
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+- The timing went well and the interface was very simple
+- The controller was not universal though and just designed for the specific interaction. I is not possible to reuse him for completely different interactions 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
+- It is much simpler to change the interaction using the WoZ technique than actually implementing it
+- Therefore prototyping different variations of interactions is easier and faster
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+- Add a sensor to determine if the AC is turned on in the first place
+- Add a motor to close the window automatically instead of reminding the user
+- Add a sensor to determine if it rains
 
