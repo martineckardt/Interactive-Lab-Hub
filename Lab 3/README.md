@@ -192,7 +192,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 ### What worked well about the system and what didn't?
 
 - Overall it worked well
-- Feeled a bit of an overkill to go trhough the whole flow everytime the window is opened. 
+- The proximity sensor was not 100% reliable and did not notice that the window was opened in one instance
+- Feeled a bit of an overkill to go through the whole flow everytime the window is opened 
 - It would be better to automatically close window 
 - Jacob thought the system would understand also conditions for closing the window ("remind me when it starts raining")
 
