@@ -124,9 +124,24 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+  So first of the all the device will almost certainly you to drink coffee which can not be the best thing in the end. This should be fixed by making a more diverse tree that's decisions can be ended with a person ansewring "No".
+  Second of all is not all people drink coffee. The option tress shoudl provide other options if the person is tired. This could be taking a break, getting an energy break or taking a nap.
+  Last the Coffee Buddy does not have a clear response when the script is done, this should be fixed with the user clearly being aware that an option has been suggested for them.
+  
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+  When the user has finsihed the script a sensor could be set up to detect when they actually have gotten a coffee or drink. This sensor could be placed on the coaster. 
+  If a sensor sees that you put your head down on the table, which is a clear sign that you are tired, it could prompt the script to run.
+  
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+  So the idea for the next iteration of the device is going to be to:
+  
+   A) Extend the option treee to include more options then just getting a cup of coffee to wake the user up.
+   B) Add a sensor to see if the user is putting their head down. If this is the case the script will automatically run.
+   C) Congratulations script for the user once they come to an option to wake themselves up.
+   
 ## Prototype your system
 
 The system should:
