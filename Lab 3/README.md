@@ -157,7 +157,7 @@ A decision tree is in this google drive along with some videos of the interactio
 
 https://drive.google.com/drive/folders/16aQeXT4dLVWk-LWIZUaZfxkqdkqKDlsq
 
-The code is under "CoffeeBuddy.py" in the Lab 3
+The code is under "CoffeeBuddy.py" in the Lab 3 folder, the interaction is all managed in the terminal within VS Code.
 
 
 Answer the following:
