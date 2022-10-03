@@ -151,26 +151,29 @@ The system should:
 
 *Document how the system works*
 
-*Include videos or screencaptures of both the system and the controller.*
+The script will be prompted by the user resting their head or manualling activating the script. The user through a set of prompts will come with an outcome for the user to gain some energy.
 
-## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+A decision tree is in this google drive along with some videos of the interactions.
+
+https://drive.google.com/drive/folders/16aQeXT4dLVWk-LWIZUaZfxkqdkqKDlsq
+
+The code is under "CoffeeBuddy.py" in the Lab 3
+
 
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The interactions worked well, the users gave clear answers that did not break the chain of commands. The sensor for laying you head down was also very consistent and worked well. I think in the future it would be helpful to make more none static ansewers for the user to get to a conclusion faster, however this would make the system way more complicated to design. Also the sensor if placed on the desk could be accidently tripped quite frequently.
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+The controller I feel like worked well. I made sure that the asnwers were easy to input into the controller so the dialogue would flow better with the user. If the user was to give an ambigous answer like in one of my interactions the controller would have to give a guess on where to prompt them next which could lead to a bad suggestion at the end of script.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+I think my biggest take away from using my device and interacting with other people's systems is that it is critcial to run these tests because it is very difficult to guess how humans will respond to your device. With my device their is a clear issue if the user doesn't answer the question with a Yes or No. When using other people's devices this seemed to be a similar issue. Understanding these patters of interactions would be very critical for making an autonmous system so the device can properly react to the user's decisions. Also some of the questions could automtically be answered such as the weather one. If we checked the weather automatically then this question would become obsolete.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+I think a cool dataset that my system could build is detecting multiple ways to tell a user is tired. Curently it is just set up for the device to detect if the user puts their head down. With computer vision we could also detect changes in posture, if they are rubbing their eyes or maybe a change in the way their voice sounds. These are all oppurtunties for us to build a dataset on human tendencies that would automate the system.
 
