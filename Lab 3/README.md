@@ -125,8 +125,8 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
 
-  So first of the all the device will almost certainly you to drink coffee which can not be the best thing in the end. This should be fixed by making a more diverse tree that's decisions can be ended with a person ansewring "No".
-  Second of all is not all people drink coffee. The option tress shoudl provide other options if the person is tired. This could be taking a break, getting an energy break or taking a nap.
+  So first of the all the device will almost certainly tell you to drink coffee which can not be the best thing in the end. This should be fixed by making a more diverse tree where the "No" response can also expand the tree.
+  Second of all is, not all people drink coffee. The option tree's should provide other options if the person is tired. This could be taking a break, getting an energy drink or taking a nap.
   Last the Coffee Buddy does not have a clear response when the script is done, this should be fixed with the user clearly being aware that an option has been suggested for them.
   
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
@@ -151,9 +151,9 @@ The system should:
 
 *Document how the system works*
 
-The script will be prompted by the user resting their head or manualling activating the script. The user through a set of prompts will come with an outcome for the user to gain some energy.
+The script will be prompted by the user resting their head or manualling activating the script. The device will go through a set of questions to help the user determine what the best course of action would be to help them regain some energy. After the script is over the user will be given a suggestion to help them wake up a little.
 
-A decision tree is in this google drive along with some videos of the interactions.
+A decision tree is in this google drive along with some videos of the interactions and some story boards.
 
 https://drive.google.com/drive/folders/16aQeXT4dLVWk-LWIZUaZfxkqdkqKDlsq
 
@@ -163,14 +163,14 @@ The code is under "CoffeeBuddy.py" in the Lab 3 folder, the interaction is all m
 Answer the following:
 
 ### What worked well about the system and what didn't?
-The interactions worked well, the users gave clear answers that did not break the chain of commands. The sensor for laying you head down was also very consistent and worked well. I think in the future it would be helpful to make more none static ansewers for the user to get to a conclusion faster, however this would make the system way more complicated to design. Also the sensor if placed on the desk could be accidently tripped quite frequently.
+The interactions worked well, the users gave clear answers that did not break the chain of commands. The sensor for laying your head down was also very consistent and worked well. I think in the future it would be helpful to make more none static ansewers for the user to get to a conclusion faster, however this would make the system way more complicated to design. Also the sensor if placed on the desk could be accidently activated quite frequently.
 
 ### What worked well about the controller and what didn't?
 The controller I feel like worked well. I made sure that the asnwers were easy to input into the controller so the dialogue would flow better with the user. If the user was to give an ambigous answer like in one of my interactions the controller would have to give a guess on where to prompt them next which could lead to a bad suggestion at the end of script.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-I think my biggest take away from using my device and interacting with other people's systems is that it is critcial to run these tests because it is very difficult to guess how humans will respond to your device. With my device their is a clear issue if the user doesn't answer the question with a Yes or No. When using other people's devices this seemed to be a similar issue. Understanding these patters of interactions would be very critical for making an autonmous system so the device can properly react to the user's decisions. Also some of the questions could automtically be answered such as the weather one. If we checked the weather automatically then this question would become obsolete.
+I think my biggest take away from using my device and interacting with other people's systems is that it is critcial to run these tests because it is very difficult to guess how humans will respond to your device. With my device there is a clear issue if the user doesn't answer the question with a Yes or No. When using other people's devices this seemed to be a similar issue. Understanding these patters of interactions would be very critical for making an autonmous system so the device can properly react to the user's decisions. Also some of the questions could automtically be answered such as the weather one. If we checked the weather automatically then this question would become obsolete.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
