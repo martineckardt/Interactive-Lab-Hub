@@ -1,4 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
+**NAMES OF COLLABORATORS HERE**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -226,12 +227,15 @@ Sketches, Interactions and Video ^
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
+Cretaed a feature where you can manually cycle through the days using the buttons. This way if a user feels a little bit better or worse on a given day they can adjust the mood to.
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+Have also set the face equal to an integer representing the day of the week instead of cycling through all of the emotions.
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+Cleaned up the resizing of the images and made the cycling cleaner.
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+https://drive.google.com/drive/folders/1xKXqyjXaqEI01dxIrYGDXbourdrWHQOa?ths=true
+
+Videos and Sketches ^^^
+
 
 

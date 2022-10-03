@@ -97,3 +97,6 @@ Cooper McGuire Helped me setup the IP and Tinkerbell tool. Also delivered an Osc
 
 Postive feebcak recieved was about creativness and good interactions seen with the device. Consturctive feedback was mainly centered around the desciption of the device being poor and an unclear objective being written in my repository. Since then I have cleaned both of these sections up to make the device more clear in it's purpose and goal when interacting with a user.
 
+https://drive.google.com/drive/folders/18_8quoBNvdQ0fDPjue6PiMu5NFbUbZ9t?ths=true
+
+
