@@ -176,9 +176,15 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+https://drive.google.com/drive/folders/1nbc4tHpnQMY8o7fBmPfqGKSBSL0p9mIK?ths=true
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+I think the feasibility and applications of some of the devices are questionable. For the game would the user know how the controls would be used and what the light would indicate. Would someone find value in a gimmicky box for the holidays? Would the capactive tape sampling rate be great enough for the reaction device to be accurate enough? Would the recycle device be able to accurately count objects? Would the device that rewards the person for making completing the task be worth it to them?
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+The recycling counter is what I am going to go with!
 
 
 ### Part D
@@ -221,11 +227,20 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+https://drive.google.com/drive/folders/1nbc4tHpnQMY8o7fBmPfqGKSBSL0p9mIK
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+Will the opening be to big to where sometimes the sensor will not catch the object coming through and will not reflect the actual count. Also with the sensor it will need to be calibrated to where the other side of the box does not trip the sensor. The capacative sensing will need to be tested to see if it should be moved so it is not accidently tripped. I think it would be interesting to play with the location to screens, it may be better to move them to the top since the user will mainly be looking down onto the device. This does depend on where the user puts the device in their setting. The sampling rate for the proximity sensor will also be important to consider to make sure it sees the trash.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+I will using the single screen with the charge icon for the device. 
+
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+It will be the size of a kleenex box to incentvize the user to recycle smaller objects that we would normally throw away. The one screen is to make the device as invasive as possible. The capactive tape on the side will be used to make the dsiplay easy to reset. The slit will be smaller to make the proximity sensor more consistent. 
 
 Build a cardbord prototype of your design.
 
