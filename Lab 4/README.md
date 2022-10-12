@@ -248,7 +248,7 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
-
+https://drive.google.com/drive/folders/1nbc4tHpnQMY8o7fBmPfqGKSBSL0p9mIK?ths=true
 LAB PART 2
 
 ### Part 2
