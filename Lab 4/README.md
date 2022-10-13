@@ -2,7 +2,7 @@
 
 **NAMES OF COLLABORATORS HERE**
 
-Martin Eckart
+Martin Eckart me424@cornell.edu
 
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
