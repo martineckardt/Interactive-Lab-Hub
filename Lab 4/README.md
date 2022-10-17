@@ -289,6 +289,9 @@ We encourage you to try using these controls, **while** paying particular attent
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+The device is intended to sit on the users desk or counter. The design is meant to be as minimalist as possible so the user doesn't find it as distraction. Similar to a kleenex box on your desk. It is also meant to be light 
 * "Works like": shows what the device can do
+ The device works by using a proximity sensor, a capactive touch system, led display and the raspberry pi. The proximity sensor is calibrated to sense when a piece of trash is dropped into the box. It was calibrated so it didn't read the other end of the box and only the piece of trash. The capactive sensor is placed on the bottom and is tripped when a user would be emptying the box so the counter would restart. The LED dsiplay is used to track the users current progress to their goal. Even though this display is discrete, the dots can be changed to represent more then one piece of trash if the user wants to change their goal.
 * "Acts like": shows how a person would interact with the device
-
+https://drive.google.com/drive/folders/1nbc4tHpnQMY8o7fBmPfqGKSBSL0p9mIK?ths=true
+In this folder there is a video of a user using the box to increase the led display and using the capactive touch to reset their score.
