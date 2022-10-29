@@ -82,11 +82,25 @@ while(water_boiling)
 
     print("Image Label is :", , ", with Accuracy :", np.round(prob*100, 2), "%.")
 
-    water_boiling = (classification_label == "Water boiling")
+    water_boiling = (classification_label == "1 Water boiling")
 
 say("water boiling")
 
 input("Controller: pasta put in? (press any key)")
-      
+
+say("pasta reminder")
+
+time.sleep(9*60)
+
+say("pasta done")
+
+
+# ========= Cleanup ===========
+
+#remove temporary files
+for sound in sounds.values():
+    os.remove(sound['filename']) 
+
+print("removed all temp files")
 
     

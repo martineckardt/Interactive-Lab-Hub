@@ -1,0 +1,2 @@
+0 Water not boiling
+1 Water boiling
