@@ -1,2 +1,3 @@
 0 Water not boiling
 1 Water boiling
+2 Pasta in pot

@@ -27,6 +27,24 @@ def classify_image(interpreter, image):
   ordered = np.argpartition(-output, 1)
   return [(i, output[i]) for i in ordered[:1]][0]
 
+
+def wait_for(label)
+
+    label_reached = False
+
+    while(label_reached)
+        # Capture image with webcam and resize
+        imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        resizedImgRGB = cv2.resize(imgRGB, (width, height));
+
+        # Classify the image.
+        label_id, prob = classify_image(interpreter, resizedImgRGB)
+        classification_label = labels[label_id]
+
+        print("Image Label is :", , ", with Accuracy :", np.round(prob*100, 2), "%.")
+
+        label_reached = (classification_label == label)
+
 def say(soundId):
     sound = pyglet.media.load(sounds[soundId]['filename'], streaming=False)
     sound.play()
@@ -69,24 +87,11 @@ interpreter.allocate_tensors()
 _, height, width, _ = interpreter.get_input_details()[0]['shape']
 print("Image Shape (", width, ",", height, ")")
 
-water_boiling = False
-
-while(water_boiling)
-    # Capture image with webcam and resize
-    imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    resizedImgRGB = cv2.resize(imgRGB, (width, height));
-
-    # Classify the image.
-    label_id, prob = classify_image(interpreter, resizedImgRGB)
-    classification_label = labels[label_id]
-
-    print("Image Label is :", , ", with Accuracy :", np.round(prob*100, 2), "%.")
-
-    water_boiling = (classification_label == "1 Water boiling")
+wait_for("1 Water boiling")
 
 say("water boiling")
 
-input("Controller: pasta put in? (press any key)")
+wait_for("2 Pasta in pot")
 
 say("pasta reminder")
 
