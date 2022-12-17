@@ -1,6 +1,7 @@
 # Little Interactions Everywhere
 
 **NAMES OF COLLABORATORS HERE**
+Big Coop (CJM424) , Jacob Everly (je354@cornell.edu)
 
 ## Prep
 
@@ -109,8 +110,15 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![IMG_4391](https://user-images.githubusercontent.com/50084830/200175883-fa3329e0-0d00-4d26-8b3c-8a6818cb8b3c.JPG)
+
+MQTT shows a dropdown list of topics under the IDD master topic. When a capacitive touch is sensed, the message under the topic updates to the input number of the touch that was sensed. 
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+![IMG_4392](https://user-images.githubusercontent.com/50084830/200175884-36bc4c61-b25b-4950-888f-27a9cb29b8d9.JPG)
+
+The gyro publishing and monitoring was implemented in gyro_sender.py above. 
 
 ### Part D
 ### The One True ColorNet
@@ -143,19 +151,46 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+![IMG_4397](https://user-images.githubusercontent.com/50084830/200177031-da81c58a-a156-4f31-b1c5-a3ffd063ca8f.jpg)
 
 ### Part E
 ### Make it your own
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
+5 possible ideas for the design of our system.
+
+![Page1](https://user-images.githubusercontent.com/112036223/200179458-3cdea732-9dbc-478c-b115-82d6bf66cdc1.jpg)
+![Page2](https://user-images.githubusercontent.com/112036223/200179461-150c97ac-fecb-4c9f-a17e-62a54ec19da5.jpg)
+![Page3](https://user-images.githubusercontent.com/112036223/200179462-eaf96fc5-01b8-4a71-bf92-bf462e3e3f9e.jpg)
+![Page4](https://user-images.githubusercontent.com/112036223/200179463-7adbdab1-98c9-413d-935e-e58ca104ac1a.jpg)
+![Page5](https://user-images.githubusercontent.com/112036223/200179464-500055b4-acae-47b7-b959-90c1982a265a.jpg)
+
+
+After considering all of the formentioned ideas, we have decided to move foward with the first idea.
+
+
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+
+With groups that might struggle to get up after falling, such as the elderly or handicapped. It can be a very bif issue if they fall and no one is around. This system allows one of the at risk groups to wear the device, that can alert others in their group that they have fallen and need help. This device could also be used for high impact activities such as football. If the device was installed in a football helmet, it could automatically alert a trainer that a major blow to the head has occured. Making it easier to detect who is at risk for having a concusion.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+![Page1](https://user-images.githubusercontent.com/112036223/200179458-3cdea732-9dbc-478c-b115-82d6bf66cdc1.jpg)
+<img width="928" alt="Screen Shot 2022-11-06 at 10 33 02 AM" src="https://user-images.githubusercontent.com/112036223/200179821-a3af9149-3ef2-4c3a-93de-1399cb95039f.png">
+
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+
+We think the blinking red light is a universal sign that something wrong is occuring. If they have the device they should be aware of its function.
+
+![IMG_4398](https://user-images.githubusercontent.com/50084830/200183756-3b5cd42f-2669-46c2-85a5-fde96b46e5d8.jpg)
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-<!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
+[Video IDD Lab 6 User Test](https://youtube.com/shorts/wV0Rsyy4nA8?feature=share)
 
+![Setup](https://github.com/JacobEverly/Interactive-Lab-Hub/raw/Fall2022/Lab%206/imgs/Lab%206.png)
+
+
+
+<!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
